@@ -1,0 +1,21 @@
+#steroids-hud {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed;
+    
+    top: 50%;
+    right: 0;
+    height: 100px;
+    margin-top: -100px;
+}
+
+#steroids-hud > button {
+    padding: 5px;
+    margin: 0.5rem 0;
+    border: 2px solid darkseagreen;
+    border-radius: 0.5rem;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    cursor: pointer;
+}
